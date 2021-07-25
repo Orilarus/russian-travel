@@ -91,3 +91,46 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 7.19% 11.56%;
+  max-width: 53.91%;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.intro__text {
+  margin: 0 0 33px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+.intro__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.intro__numbers {
+  font-weight: normal;
+}
