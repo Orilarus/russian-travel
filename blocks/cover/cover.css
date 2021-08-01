@@ -1,0 +1,28 @@
+.cover {
+  width: calc(100% - 48px * 2);
+  margin: 0 auto 79px;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-width: 100%;
+    min-height: 480px;
+    margin: 0 auto 75px
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-width: 100%;
+    min-height: 200px;
+    margin: 0 auto 64px
+  }
+}
