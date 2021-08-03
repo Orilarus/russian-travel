@@ -4,21 +4,21 @@
   margin: 0 0 7.19%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead {
     max-width: calc(100% - 48px * 2);
     margin: 0 auto 92px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead {
     min-width: 100%;
     margin: 0 0 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .lead {
     margin: 0 0 64px;
   }

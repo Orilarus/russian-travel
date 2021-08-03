@@ -10,19 +10,19 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__subtitle {
     min-width: calc(100% - 332px * 2);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__subtitle {
     min-width: calc(100% - 204px * 2);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__subtitle {
     max-width: calc(100% - 16px * 2);
     margin: 0 auto;

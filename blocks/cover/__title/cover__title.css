@@ -10,19 +10,19 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__title {
     min-width: calc(100% - 232px * 2);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__title {
     min-width: calc(100% - 104px * 2);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__title {
     min-width: 75%;
     margin: 0 auto 16px;
