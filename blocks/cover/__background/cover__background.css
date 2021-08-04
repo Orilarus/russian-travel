@@ -1,6 +1,6 @@
 .cover__background {
   min-height: 740px;
-  background-image: url(/russian-travel/images/__background.jpg);
+  background-image: url(../../../images/__background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
