@@ -17,6 +17,7 @@
   min-height: 740px;
   width: 100%;
   opacity: 0.3;
+  transition: 1.5s;
 }
 
 .cover__overlay:hover::before {

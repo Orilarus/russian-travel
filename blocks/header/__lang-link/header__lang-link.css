@@ -4,6 +4,11 @@
   line-height: 28px;
   text-align: right;
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__lang-link:last-child {
+  margin: 0 0 0 18px
 }
 
 .header__lang-link:hover {
